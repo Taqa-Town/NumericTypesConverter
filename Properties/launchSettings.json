@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "NumericTypesConverter (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "NumericTypesConverter (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}
