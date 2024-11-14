@@ -3,6 +3,7 @@
 - clean, simple and error free
 - beautiful WinUI themes 
 - portable exe file 
+- 25 character input limit
 - only works on Winodws 10 or higher
 # Dependencies
 - WASDK/WinUI 3
