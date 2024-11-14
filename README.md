@@ -3,7 +3,7 @@
 - clean, simple and error free
 - beautiful WinUI themes 
 - portable exe file 
-- 25 character input limit
+- 25 character input limit in the textbox
 - only works on Winodws 10 or higher
 # Dependencies
 - WASDK/WinUI 3
