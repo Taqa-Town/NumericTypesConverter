@@ -8,34 +8,39 @@ namespace NumericTypesConverter.MVVM.ViewModels;
 public partial class MainViewModel : ObservableObject
 {
     [ObservableProperty]
-    private static string _filteredText = string.Empty;
+    public partial string FilteredText { get; set; }
+    
 
     [ObservableProperty]
-    private string _validChars = ".0123456789";
+    public partial string ValidChars { get; set; } = ".0123456789";
+    
 
     [ObservableProperty]
-    private bool _cBIsChecked = false;
+    public partial bool CBIsChecked { get; set; } = false;
+   
 
     [ObservableProperty]
-    private string _firstTitle = "Binary";
+    public partial string FirstTitle { get; set; } = "Binary";
+    
 
     [ObservableProperty]
-    private string _secondTitle = "Hexadecimal";
+    public partial string SecondTitle { get; set; } = "Hexadecimal";
+    
 
     [ObservableProperty]
-    private string _thirdTitle = "Octal";
+    public partial string ThirdTitle { get; set; } = "Octal";
 
     [ObservableProperty]
-    private static string _firstText;
+    public partial string FirstText { get; set; } = string.Empty;
 
     [ObservableProperty]
-    private static string _secondText;
+    public partial string SecondText { get; set; } = string.Empty;
 
     [ObservableProperty]
-    private static string _thirdText;
+    public partial string ThirdText { get; set; } = string.Empty;
 
     [ObservableProperty]
-    private InputTypesModel _inputTypes = InputTypesModel.Decimal;
+    public partial InputTypesModel InputTypes { get; set; } = InputTypesModel.Decimal;
 
     public void FilterInput(TextBox sender, TextBoxBeforeTextChangingEventArgs args)
     {
